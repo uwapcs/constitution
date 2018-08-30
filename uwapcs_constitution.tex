@@ -1,45 +1,48 @@
 \documentclass[a4paper]{article}
+
 \usepackage{appendix}
 \usepackage{cleveref}
+\usepackage{enumitem}
 \usepackage[margin=2.5cm]{geometry}
+\usepackage[utf8]{inputenc}
+
+\newenvironment{enumsection}[1]{\section{#1} \begin{enumerate}[ref=\thesection.\theenumi]}{\end{enumerate}}
+
 \begin{document}
 
 \title{The Constitution of the UWA Programming Competition Society}
+\author{}
 \date{}
 
 \maketitle
 
 
-\section{Name}
-\begin{enumerate}
+\begin{enumsection}{Name}
 	\item The name of the Society shall be: \textbf{The UWA Programming Competition Society}.
     \item The Society will also go by the abbreviations \textbf{PCS} and \textbf{UWA PCS}.
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Definitions}
-\begin{enumerate}
+\begin{enumsection}{Definitions}
 	\item the University --- the University of Western Australia.
     \item the Guild --- the UWA Student Guild.
     \item the Society --- the UWA Programming Competition Society.
     \item Regulation --- a rule, passed by Committee, with ongoing consequences to the Society.
     \item Fresher --- a first time member of the club.
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Objectives} \label{sec:objectives}
-\begin{enumerate}
+\begin{enumsection}{Objectives} \label{sec:objectives}
     \item To encourage and facilitate competitive programming at the University and within the wider community.
     \item To become and remain affiliated with the Societies Council of the Guild.
     \item To encourage and facilitate computer science and mathematics education at the University and within the wider community.
     \item To encourage and facilitate the holding of events and functions beneficial to Objectives of the Society.
     \item To encourage and promote cooperation between the Society and other societies and community-based organizations representative of the Society's interests.
     \item To ensure that the Society shall not by way of gift transmit any monies, grants or property to any person except in the direct cause of these Objectives and as detailed in \cref{sec:dissolution}.
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Membership of the Society}
-\begin{enumerate}
+\begin{enumsection}{Membership of the Society}
     \item Society membership is targeted at, but not restricted to:
     \begin{enumerate}
         \item Students of the University
@@ -51,11 +54,10 @@
     \item The annual subscription for members shall be set by the Committee of the Society, subject to any restrictions set by the Guild.
     \item A financial member is a member who has paid their annual subscription for this year.
     \item Financial memberships expire 1 day prior to the holding of the Annual General Meeting in the subsequent year from its payment (see \cref{sec:AGMs}).
-\end{enumerate}
+\end{enumsection}
 
 
-\section{The Committee} \label{sec:committee}
-\begin{enumerate}
+\begin{enumsection}{The Committee} \label{sec:committee}
 	\item The Committee of the Society shall consist of:
     \begin{enumerate}
     	\item The executive office bearers:
@@ -71,7 +73,7 @@
         	\item Three Ordinary Committee Members
         \end{itemize}
     \end{enumerate}
-    \item The Committee members shall remain in office until the next Annual General Meeting or until they lose the confidence of a General Meeting, at which their position is declared vacant (see \cref{sec:committee}, \cref{sub:removing_committee}).
+    \item The Committee members shall remain in office until the next Annual General Meeting or until they lose the confidence of a General Meeting, at which their position is declared vacant (see \cref{sub:removing_committee}).
     \item \label{sub:removing_committee} By two-thirds majority vote, the General Meeting may remove any member of the Committee from office. They must then elect a member to that role, following the rules laid out in \cref{sec:AGMs}.
     \item If a Committee member ceases to meet the eligibility requirements for their position, as detailed in \cref{sec:AGMs}, they shall cease to hold office and the position shall be declared vacant.
     \item \label{sub:committee_resign} If a Committee member resigns or ceases to hold office for any reason, the vacancy shall either:
@@ -82,12 +84,11 @@
         \end{enumerate}
         \item Remain vacant and be filled by election (as per \cref{sec:AGMs}) at the next General Meeting, which must be held within the next 2 weeks.
     \end{enumerate}
-    \item No member of Committee may fill two roles simultaneously. Upon being appointed to a second position, they immediately cease to hold the first and are subject to the rules given in \cref{sec:committee}, \cref{sub:committee_resign}.
-\end{enumerate}
+    \item No member of Committee may fill two roles simultaneously. Upon being appointed to a second position, they immediately cease to hold the first and are subject to the rules given in \cref{sub:committee_resign}.
+\end{enumsection}
 
 
-\section{General Meetings} \label{sec:general_meetings}
-\begin{enumerate}
+\begin{enumsection}{General Meetings} \label{sec:general_meetings}
 	\item A General Meeting shall be open to all members of the Society.
 	\item The quorum of a General Meeting shall consist of 17 financial members of the Society.
     \item The Committee may, at any time, call a Ordinary General Meeting of the Society.
@@ -101,16 +102,15 @@
     \end{enumerate}
     \item The Secretary shall make all reasonable attempts (including but not limited to publications required by the Guild, and any official club publications) to notify all members of any General Meeting together with that meeting's agenda at least four days prior to the date appointed for that meeting.
     \begin{enumerate}
-        \item This agenda may be changed during the meeting, subject to the restriction in \cref{sec:general_meetings}, \cref{sub:special_meeting_priority} if appropriate.
+        \item This agenda may be changed during the meeting, subject to the restriction in \cref{sub:special_meeting_priority} if appropriate.
     \end{enumerate}
     \item No General Meeting may be held while a Guild General Meeting is in progress, except where the written notice of the meeting was given before the written notice of the Guild General Meeting. Any such meeting being conducted in contravention of this requirement shall disband immediately on the order of a disciplinary officer of the Guild.
     \item All General Meetings of the Society shall be conducted in accordance with the procedures in the Standing Rules and Orders of the Guild Council.
     \item The General Meeting shall, in addition to the powers expressly granted to it by this Constitution, have all powers which are granted to the Committee.
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Annual General Meetings of the Society} \label{sec:AGMs}
-\begin{enumerate}
+\begin{enumsection}{Annual General Meetings of the Society} \label{sec:AGMs}
     \item The Society shall hold its Annual General Meeting within the first four weeks of each academic year.
     \item The Society may, at the Annual General Meeting, select a patron who, willing to do so, shall hold office until the succeeding Annual General Meeting.
     \item Before the Annual General Meeting, the Secretary shall call for nominations for the offices and Committee of the Society, and shall include the same in the notice of the Annual General Meeting. Nominations shall close at that meeting.
@@ -123,11 +123,10 @@
         \item All executive office bearers must be students at the University and Guild members for the duration of their term.
         \item \label{fresher_rep_requirement} Only Freshers shall be eligible for the position of Fresher Representative.
     \end{enumerate}
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Committee Meetings}
-\begin{enumerate}
+\begin{enumsection}{Committee Meetings}
     \item The Committee shall meet as such times and places as the President, in consultation with the other Committee members shall determine.
     \item The quorum of a Committee meeting shall be 4 Committee members of which at least 2 must be executive office bearers.
     \item The Committee shall only exercise its powers (as defined in this constitution or in Regulations) at a properly convened meeting of the Committee, except as elsewhere provided in the Constitution.
@@ -158,11 +157,10 @@
         \item Impose fines for the breach of this Constitution or Regulations.
     \end{enumerate}
     \item These powers are in addition to any other powers given in this Constitution (in particular, see \cref{sec:member_suspension}).
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Duties and Powers} \label{sec:duties}
-\begin{enumerate}
+\begin{enumsection}{Duties and Powers} \label{sec:duties}
     \item The President shall have the following duties and powers, in addition to those elsewhere in the Constitution and in any Regulations: \label{sub:pres_duties}
     \begin{enumerate}
         \item To coordinate and supervise the work of the Committee.
@@ -178,7 +176,7 @@
     \item The Vice-President shall have the following duties and powers, in addition to those elsewhere in the Constitution and in any Regulations:
     \begin{enumerate}
         \item Assisting the President wherever possible. 
-        \item Whenever the President is unavailable, to take on the duties and powers of the President as detailed in \cref{sec:duties}, \cref{sub:pres_duties}.
+        \item Whenever the President is unavailable, to take on the duties and powers of the President as detailed in \cref{sub:pres_duties}.
     \end{enumerate}
     
     \item The Treasurer shall have the following duties, in addition to those elsewhere in the Constitution and in any Regulations:
@@ -207,51 +205,45 @@
     \end{enumerate}
     
     \item Should any of the Committee members be temporarily unable to fulfill their duties, as defined above, another willing member of Committee shall, at the request of Committee take on some or all of their duties.
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Finances} \label{sec:finances}
-\begin{enumerate}
+\begin{enumsection}{Finances} \label{sec:finances}
 	\item All monies due and payable to the Society shall be received by the Treasurer who shall lodge them without undue delay in the Society Banking Account for the credit of the Society.
     \item Any two Committee members shall be empowered to jointly sign or otherwise approve forms of authority for the withdrawal of any money from the the Society's Banking Account.
-    \item With exception of the executive power of the President (\cref{sec:duties}, \cref{sub:pres_duties}), no payments shall be made on behalf or in the name of the Society unless it has been authorised by the Committee.
-\end{enumerate}
+    \item With exception of the executive power of the President (\cref{sub:exec_power}), no payments shall be made on behalf or in the name of the Society unless it has been authorised by the Committee.
+\end{enumsection}
 
-\section{Major Obligations to the Guild} \label{sec:guild_obligations}
-\begin{enumerate}
+\begin{enumsection}{Major Obligations to the Guild} \label{sec:guild_obligations}
     \item The Society shall comply with the rules of the Guild and the Societies Council of the Guild, and all other provisions enrolled upon the Guild Statutes Book.
     \begin{enumerate}
         \item The executive office bearers shall jointly and severally responsible for such compliance.
     \end{enumerate}
     \item Such rules supersede the Regulations of the Society, and this Constitution, if and where contradiction occurs.
-\end{enumerate}
+\end{enumsection}
 
-\section{Suspension of Members} \label{sec:member_suspension}
-\begin{enumerate}
+\begin{enumsection}{Suspension of Members} \label{sec:member_suspension}
     \item The Committee has the ability to suspend any member if they believe it in the best interests of the Society. Such suspensions shall be reviewed at the next General Meeting of the Society.
     \item While suspended the member shall be unable to exercise any right as a member and shall not be permitted to take part in any activities or events run by the Society.
     \item The Committee, or General Meeting, may discontinue suspension and restore a member to normal standing, or impose other sanctions such as expulsion (see \cref{sec:expulsion}) or continued suspension for a fixed amount of time.
     \item \label{committee_suspended} If for any reason a Committee member is suspended, a General Meeting must be held within two weeks to resolve the situation.
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Expulsion of Members\label{sec:expulsion}}
-\begin{enumerate}
+\begin{enumsection}{Expulsion of Members\label{sec:expulsion}}
     \item The General Meeting may, by two-thirds majority vote, expel any member of the Society.
     \item While expelled the former member shall be unable to exercise any right as a member. 
     \item Expulsion can be repealed by a two-thirds majority vote of a General Meeting.
     \item An expelled member remains expelled indefinitely and is barred from future membership.
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Availability of Constitution}
-\begin{enumerate}
+\begin{enumsection}{Availability of Constitution}
 	\item This Constitution shall be made available to members on request.
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Alteration of Constitution}
-\begin{enumerate}
+\begin{enumsection}{Alteration of Constitution}
     \item To amend this Constitution, the following steps must be taken:
     \begin{enumerate}
         \item Any two financial members of the Society may not less than four days before the day appointed for the next General Meeting submit to the Secretary a notice of motion by them proposing an alteration to the Constitution.
@@ -261,20 +253,19 @@
         \item The motion as adopted, with any amendments, shall come into force upon receiving the approval of the Societies Council of the Guild.
     \end{enumerate}
     \item A history of revisions of this Constitution shall be maintained in \cref{app:history}. Where possible the Committee shall maintain details of these revisions and make these available to members upon request.
-\end{enumerate}
+\end{enumsection}
 
 
-\section{Dissolution} \label{sec:dissolution}
-\begin{enumerate}
+\begin{enumsection}{Dissolution} \label{sec:dissolution}
     \item In the event of the Society's disaffiliation from the Societies Council of the Guild and cessation of activity, the resources of the Society shall be given into the holding of the University Computer Club.
     \begin{enumerate}
-        \item These resources are given with the understanding that they shall be at the first opportunity passed on to another society or club affiliated with the Societies Council of the Guild and having similar objectives to those of the Society (see \Cref{sec:objectives}), as judged by the University Computer Club.
+        \item These resources are given with the understanding that they shall be at the first opportunity passed on to another society or club affiliated with the Societies Council of the Guild and having similar objectives to those of the Society (see \cref{sec:objectives}), as judged by the University Computer Club.
     \end{enumerate}
     \item In the event that the University Computer Club no longer exists at the time of the Society's dissolution, the resources of the Society shall be given into the holding of the Societies Council of the Guild.
     \begin{enumerate}
-        \item These resources are given with the understanding that they shall be at the first opportunity passed on to another society or club affiliated with the Societies Council of the Guild and having similar objectives to those of the Society (see \Cref{sec:objectives}), as judged by the Societies Council of the Guild.
+        \item These resources are given with the understanding that they shall be at the first opportunity passed on to another society or club affiliated with the Societies Council of the Guild and having similar objectives to those of the Society (see \cref{sec:objectives}), as judged by the Societies Council of the Guild.
     \end{enumerate}
-\end{enumerate}
+\end{enumsection}
 
 \appendixpage
 
