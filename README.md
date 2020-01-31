@@ -3,4 +3,4 @@ See [the latest release](../../releases/latest) for a compiled PDF of the consti
 
 You can also [download a compiled PDF](../../raw/gh-pages/subcommittee_regulations.pdf) of the latest working version or [view it in your browser](../gh-pages/subcommittee_regulations.pdf). Note that this may not reflect the current official version.
 
-The constitution is written in LaTeX. Please maintain a history of amendments as part of the file, and roll a new release when the constitution is amended. A GitHub Action will automatically build the PDF and add it to the release.
+The constitution is written in LaTeX. Please maintain a history of amendments as part of the file, and roll a new release when the constitution is amended. [A GitHub Action](.github/workflows/release.yml) will automatically build the PDF and add it to the release.
