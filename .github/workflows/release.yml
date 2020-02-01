@@ -1,0 +1,24 @@
+ 
+name: Build PDF and add to release
+
+on:
+  release:
+    types: [published,unpublished,created,prereleased]
+
+jobs:
+  build:
+    name: Release PDF
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@master
+    - name: Compile LaTeX
+      uses: xu-cheng/latex-action@master
+      with:
+        root_file: uwapcs_constitution.tex
+    - name: Upload PDF
+      uses: skx/github-action-publish-binaries@master
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        args: '*.pdf'
