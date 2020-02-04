@@ -12,3 +12,8 @@ jobs:
       uses: xu-cheng/latex-action@master
       with:
         root_file: uwapcs_constitution.tex
+    - uses: actions/upload-artifact@v1
+      if: always()
+      with:
+        name: result
+        path: ./
