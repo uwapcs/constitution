@@ -1,4 +1,4 @@
-name: Build and Publish to GitHub Pages
+name: Build and Publish to Branch
 
 on:
   push:
@@ -16,10 +16,8 @@ jobs:
       with:
         root_file: uwapcs_constitution.tex
     - name: Deploy
-      uses: docker://peaceiris/gh-pages:latest
-      env:
-        ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-        PUBLISH_BRANCH: gh-pages
-        PUBLISH_DIR: ./
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        emptyCommits: false
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: master-build
+        publish_dir: ./
