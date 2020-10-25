@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1603640260 "uwapcs_constitution.tex" "uwapcs_constitution.pdf" "uwapcs_constitution" 1603640261
+["pdflatex"] 1603641261 "uwapcs_constitution.tex" "uwapcs_constitution.pdf" "uwapcs_constitution" 1603641261
   "/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/texlive/texdir/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/opt/texlive/texdir/texmf-dist/fonts/map/pdftex/updmap/pdftex.map" 1600386839 5017317 41f450089410e74365a830bef03f1a22 ""
@@ -34,10 +34,10 @@
   "/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1600980374 23704 02c466ff883953a445c97e55638005fc ""
   "/opt/texlive/texdir/texmf-dist/web2c/texmf.cnf" 1598393674 39451 15a3ebee027466ecb89701aa91dfebaf ""
   "/opt/texlive/texdir/texmf.cnf" 1601516743 555 bd60ff59e4d560b42d96b004436f91d3 ""
-  "/root/texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1603640259 2445112 c00a6b9e577b924e086f7f79fb3257e0 ""
-  "uwapcs_constitution.aux" 1603640261 3798 8a7d06067749c5dad7b7f733ca73124c "pdflatex"
-  "uwapcs_constitution.tex" 1603640256 21364 5771fee4e40ccd6af18d778be947d14e ""
+  "/root/texlive/texmf-var/web2c/pdftex/pdflatex.fmt" 1603641260 2445112 154d321a7837e06c9cb3027f45facfe2 ""
+  "uwapcs_constitution.aux" 1603641261 3798 8a7d06067749c5dad7b7f733ca73124c "pdflatex"
+  "uwapcs_constitution.tex" 1603641256 21364 5771fee4e40ccd6af18d778be947d14e ""
   (generated)
+  "uwapcs_constitution.log"
   "uwapcs_constitution.pdf"
   "uwapcs_constitution.aux"
-  "uwapcs_constitution.log"
