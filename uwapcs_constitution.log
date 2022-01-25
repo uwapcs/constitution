@@ -1,54 +1,54 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.10.25)  25 OCT 2020 16:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021) (preloaded format=pdflatex 2022.1.1)  25 JAN 2022 14:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **uwapcs_constitution.tex
 (./uwapcs_constitution.tex
-LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-09-24>
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2021-11-22>
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count168
-\c@section=\count169
-\c@subsection=\count170
-\c@subsubsection=\count171
-\c@paragraph=\count172
-\c@subparagraph=\count173
-\c@figure=\count174
-\c@table=\count175
+\c@part=\count183
+\c@section=\count184
+\c@subsection=\count185
+\c@subsubsection=\count186
+\c@paragraph=\count187
+\c@subparagraph=\count188
+\c@figure=\count189
+\c@table=\count190
 \abovecaptionskip=\skip47
 \belowcaptionskip=\skip48
-\bibindent=\dimen134
+\bibindent=\dimen138
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2020/02/08 v1.2c extra appendix facilities
-\c@@pps=\count176
-\c@@ppsavesec=\count177
-\c@@ppsaveapp=\count178
+\c@@pps=\count191
+\c@@ppsavesec=\count192
+\c@@ppsaveapp=\count193
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/cleveref/cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks15
+\enitkv@toks@=\toks16
 \labelindent=\skip49
-\enit@outerparindent=\dimen135
-\enit@toks=\toks16
-\enit@inbox=\box45
-\enit@count@id=\count179
-\enitdp@description=\count180
+\enit@outerparindent=\dimen139
+\enit@toks=\toks17
+\enit@inbox=\box50
+\enit@count@id=\count194
+\enitdp@description=\count195
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 (/opt/texlive/texdir/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+\KV@toks@=\toks18
 )
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
@@ -56,28 +56,28 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/opt/texlive/texdir/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count181
-\Gm@cntv=\count182
-\c@Gm@tempcnt=\count183
-\Gm@bindingoffset=\dimen136
-\Gm@wd@mp=\dimen137
-\Gm@odd@mp=\dimen138
-\Gm@even@mp=\dimen139
-\Gm@layoutwidth=\dimen140
-\Gm@layoutheight=\dimen141
-\Gm@layouthoffset=\dimen142
-\Gm@layoutvoffset=\dimen143
-\Gm@dimlist=\toks18
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks19
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks19
-\inpenc@posthook=\toks20
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks20
+\inpenc@posthook=\toks21
 )
 (/opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count184
-\l__pdf_internal_box=\box46
+File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box51
 )
 (./uwapcs_constitution.aux)
 \openout1 = `uwapcs_constitution.aux'.
@@ -139,29 +139,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 17.
 [1
 
-{/opt/texlive/texdir/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}] [2]
-[3] [4] [5] [6] [7] (./uwapcs_constitution.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+[3] [4] [5] [6] [7] (./uwapcs_constitution.aux) ) 
 Here is how much of TeX's memory you used:
- 3176 strings out of 480875
- 61499 string characters out of 5909506
- 309632 words of memory out of 5000000
- 18845 multiletter control sequences out of 15000+600000
- 539977 words of font info for 45 fonts, out of 8000000 for 9000
+ 3319 strings out of 478353
+ 66092 string characters out of 5850105
+ 383946 words of memory out of 5000000
+ 21487 multiletter control sequences out of 15000+600000
+ 408319 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 36i,4n,34p,392b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</o
-pt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></opt/te
-xlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/texlive
-/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/texdi
-r/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></opt/texlive/texdir/texm
-f-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on uwapcs_constitution.pdf (7 pages, 86254 bytes).
+ 55i,5n,62p,393b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/opt/texlive/texdir/texmf-dis
+t/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</opt/texlive/texdir/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmbx10.pfb></opt/texlive/texdir/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr17.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1000.pfb>
+Output written on uwapcs_constitution.pdf (7 pages, 90244 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 54 PDF objects out of 1000 (max. 8388607)
  34 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
